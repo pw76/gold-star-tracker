@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gold Star Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Gold Star Tracker</h1>
+  
+  <div id="tracker">
+    <div class="person">
+      <h2>Peter: <span id="peter-count">0</span></h2>
+      <select id="peter-stars">
+        <option value="1">1 star</option>
+        <option value="2">2 stars</option>
+        <option value="3">3 stars</option>
+        <option value="4">4 stars</option>
+        <option value="5">5 stars</option>
+        <option value="6">6 stars</option>
+        <option value="7">7 stars</option>
+        <option value="8">8 stars</option>
+        <option value="9">9 stars</option>
+        <option value="10">10 stars</option>
+      </select>
+      <input type="text" id="peter-reason" placeholder="Reason (optional)" />
+      <button onclick="addStar('Peter')">Add Stars</button>
+    </div>
+    
+    <div class="person">
+      <h2>Katie: <span id="katie-count">0</span></h2>
+      <select id="katie-stars">
+        <option value="1">1 star</option>
+        <option value="2">2 stars</option>
+        <option value="3">3 stars</option>
+        <option value="4">4 stars</option>
+        <option value="5">5 stars</option>
+        <option value="6">6 stars</option>
+        <option value="7">7 stars</option>
+        <option value="8">8 stars</option>
+        <option value="9">9 stars</option>
+        <option value="10">10 stars</option>
+      </select>
+      <input type="text" id="katie-reason" placeholder="Reason (optional)" />
+      <button onclick="addStar('Katie')">Add Stars</button>
+    </div>
+  </div>
+  
+  <h2>Today's Stars</h2>
+  <ul id="today-list"></ul>
+  
+  <h2>History</h2>
+  <div id="history"></div>
+  
+  <script src="script.js"></script>
+</body>
+</html>

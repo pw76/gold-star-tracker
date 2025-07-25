@@ -1,0 +1,29 @@
+{
+  "2025-07-24": {
+    "Peter": [
+      {
+        "count": 1,
+        "reason": "Building the tracker"
+      }
+    ],
+    "Katie": [
+      {
+        "count": 1,
+        "reason": "Coughing on a voice note."
+      },
+      {
+        "count": 1,
+        "reason": "Smashing half of the report."
+      }
+    ]
+  },
+  "2025-07-25": {
+    "Peter": [],
+    "Katie": [
+      {
+        "count": 1,
+        "reason": "Eating a healthy breakfast."
+      }
+    ]
+  }
+}

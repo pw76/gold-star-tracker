@@ -1,0 +1,44 @@
+
+body {
+  font-family: sans-serif;
+  max-width: 600px;
+  margin: auto;
+  padding: 1em;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+#tracker {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 2em;
+}
+
+.person {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 1em;
+  text-align: center;
+}
+
+input[type="text"] {
+  margin-top: 0.5em;
+  width: 90%;
+  padding: 0.3em;
+}
+
+select {
+  padding: 0.3em;
+  margin-bottom: 0.5em;
+  width: 100px;
+  font-size: 0.9em;
+}
+
+button {
+  margin-top: 0.5em;
+  padding: 0.5em 1em;
+  font-size: 1em;
+  cursor: pointer;
+}
